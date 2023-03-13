@@ -2,7 +2,6 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 import { Router } from "@routes/Router";
 import { rawTheme } from "@styles/theme";
 import { ReactElement } from "react";
-import "./App.css";
 
 const theme = extendTheme(rawTheme);
 
