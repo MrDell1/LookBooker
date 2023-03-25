@@ -40,10 +40,11 @@ const LandingPage = (): ReactElement => {
             bgColor="white"
             borderColor="brown.300"
             borderRadius="32px"
-            fontSize="3xl"
+            fontSize="2xl"
             fontWeight="semibold"
-            h="20"
+            h="fit-content"
             placeholder="Find your hairdresser"
+            py="2"
             w="96"
           />
           <Button
